@@ -1,0 +1,13 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    align-items: center;
+    
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
