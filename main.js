@@ -16,7 +16,8 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
  
         const name = document.createElement('div')
         const pokemonName = pokemon.name
-        name.innerText = pokemonName
+        // name.innerText = pokemonNumber + ' ' + pokemonName
+        name.innerText = `#${pokemonNumber} ${pokemonName}`
 
         cell.appendChild(img)
         cell.appendChild(name)
